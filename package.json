@@ -1,0 +1,13 @@
+{
+  "name": "designup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Design Up landing page",
+  "scripts": {
+    "dev": "wrangler pages dev site",
+    "deploy": "wrangler pages deploy site --project-name designup --branch main"
+  },
+  "devDependencies": {
+    "wrangler": "^4.128.0"
+  }
+}
